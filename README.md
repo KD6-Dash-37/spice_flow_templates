@@ -1,1 +1,1 @@
-# spice_flow_templates
+# SpiceFlow Templates
