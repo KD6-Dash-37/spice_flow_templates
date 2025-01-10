@@ -1,0 +1,16 @@
+// schemas/order_book.fbs
+namespace spiceflow;
+
+table PriceLevel {
+    price: float;
+    size: float;
+}
+
+table OrderBook {
+    instrument_name: string;
+    change_id: ulong;
+    bids: [PriceLevel];
+    asks: [PriceLevel];
+}
+
+root_type OrderBook;

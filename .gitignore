@@ -1,0 +1,10 @@
+# Ignore FlatBuffer-generated code
+*.rs
+*.py
+
+# IDE files
+.idea/
+.vscode/
+
+# Miscellaneous
+.DS_Store
