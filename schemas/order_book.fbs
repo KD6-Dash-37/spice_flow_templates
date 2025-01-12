@@ -7,8 +7,7 @@ table PriceLevel {
 }
 
 table OrderBook {
-    instrument_name: string;
-    change_id: ulong;
+    topic: string;
     bids: [PriceLevel];
     asks: [PriceLevel];
 }
