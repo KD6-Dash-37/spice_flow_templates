@@ -2,8 +2,8 @@
 namespace spiceflow;
 
 table PriceLevel {
-    price: float;
-    size: float;
+    price: double;
+    size: double;
 }
 
 table OrderBook {
